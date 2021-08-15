@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+#A{
+    background-color: rgb(60, 164, 255) ;
+    font-family: 'Caveat', cursive;
+    border: none;
+    height: 100px;
+    width: 100px;
+    font-size: medium;
+    border-radius: 94px;
+    background: linear-gradient(145deg, #fd7373, #ff9696);
+    box-shadow:  13px 13px 49px #fa7373,
+             -13px -13px 49px #5fdaff;
+    
+    
+    
+}
+
+#aaa{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.name{
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 0px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: medium;
+
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: inset 19px 19px 35px #cccccc,
+            inset -19px -19px 35px #f4f4f4;
+}
+
+
+.go{
+    border: none;
+    background-color: rgb(250, 82, 82);
+    margin-left: 10px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+.e{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.p{
+   display: flex;
+   justify-content: center;
+}
+
