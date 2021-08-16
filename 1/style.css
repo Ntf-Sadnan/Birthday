@@ -85,7 +85,7 @@
     animation:animate 10s linear infinite;
     font-family: 'MonteCarlo', cursive;
     font-family: 'Shadows Into Light', cursive;
-    margin-left: 20px;
+    margin-left: 100px;
     margin-top: 20px;
 }
 
@@ -106,10 +106,11 @@
         background-position: 0 100%;
     }
 }
-/*.from{
+
+.from{
     font-size: 40px;
     margin-left: 600px;
-    margin-top: 500px;
+    margin-top: 180px;
     background:linear-gradient(90deg,#ff5353,#424242,#ffffff,#76e4ff);
     background-size:400%;
     -webkit-text-fill-color:transparent;
@@ -118,7 +119,7 @@
     font-family: fantasy;
     display: flex;
 
-}*/
+}
 
 @keyframes animate{
     0%{
