@@ -153,12 +153,12 @@
     box-shadow:  20px 20px 40px #b8b8b8,
              -20px -20px 40px #ffffff;
 }
-
 .tr{
-    display:flexbox;
+    display: block;
 }
+
 @media(max-width:375px){
     .tr{
-        margin-top: 100px;
+        margin-top: 600px;
     }
 }
