@@ -110,14 +110,14 @@
 .from{
     font-size: 40px;
     margin-left: 600px;
-    margin-top: 180px;
+    margin-top: 200px;
     background:linear-gradient(90deg,#ff5353,#424242,#ffffff,#76e4ff);
     background-size:400%;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
     animation:animate 20s linear infinite;
     font-family: fantasy;
-    display: flex;
+    display: block;
 
 }
 
@@ -141,4 +141,24 @@
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
     animation:animate 5s linear infinite;
+}
+
+.true{
+    color: black;
+    margin-top: -60px;
+    font-size: 40px;
+    font-family: 'Alumni Sans', sans-serif;
+    border-radius: 40px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 40px #b8b8b8,
+             -20px -20px 40px #ffffff;
+}
+
+.tr{
+    display:flexbox;
+}
+@media(max-width:375px){
+    .tr{
+        margin-top: 100px;
+    }
 }
