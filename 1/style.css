@@ -135,6 +135,8 @@
 
 
 .footer{
+    margin-top: 500px;
+    margin-left: 550px;
     font-family: 'Minecraft', sans-serif;
     background:linear-gradient(90deg,#ffffff,#000000);
     background-size:400%;
@@ -155,10 +157,10 @@
 }
 .tr{
     display: block;
-    margin-top: -500px;
+    margin-top: -400px;
 }
 
-@media(max-width:375px){
+@media screen and(max-width:375px){
     .tr{
         margin-top: 100px;
     }
