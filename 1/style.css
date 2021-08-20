@@ -155,7 +155,7 @@
 }
 .tr{
     display: block;
-    margin-top:500px;
+    margin-top: -500px;
 }
 
 @media(max-width:375px){
