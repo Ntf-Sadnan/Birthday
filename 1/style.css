@@ -150,18 +150,21 @@
     margin-top: -60px;
     font-size: 40px;
     font-family: 'Alumni Sans', sans-serif;
-    border-radius: 40px;
+    border-radius: 20px;
     background: #e0e0e0;
     box-shadow:  20px 20px 40px #b8b8b8,
              -20px -20px 40px #ffffff;
+    background:linear-gradient(90deg,#ff0000,#ffffff,#ffa43c);
+    background-size:400%;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    animation:animate 1s linear infinite;
+    height: 60px;
+    width: 1000px;
+    margin-left: 200px;
 }
 .tr{
     display: block;
     margin-top: -400px;
-}
-
-@media screen and(max-width:375px){
-    .tr{
-        margin-top: 100px;
-    }
+    
 }
