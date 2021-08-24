@@ -117,7 +117,7 @@
     -webkit-background-clip:text;
     animation:animate 20s linear infinite;
     font-family: fantasy;
-    display: block;
+    
 
 }
 
@@ -150,7 +150,7 @@
     margin-top: -60px;
     font-size: 40px;
     font-family: 'Alumni Sans', sans-serif;
-    border-radius: 20px;
+    border-radius: 14px;
     background: #e0e0e0;
     box-shadow:  20px 20px 40px #b8b8b8,
              -20px -20px 40px #ffffff;
@@ -158,10 +158,10 @@
     background-size:400%;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text;
-    animation:animate 1s linear infinite;
+    animation:animate 3s linear infinite;
     height: 60px;
-    width: 1000px;
-    margin-left: 200px;
+    width: 800px;
+    margin-left: 300px;
 }
 .tr{
     display: block;
